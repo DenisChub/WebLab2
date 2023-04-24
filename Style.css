@@ -1,0 +1,85 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(20, 5%);
+    grid-template-rows: repeat(50, 2%);
+    height: 64vh;
+    width: 170vh;
+    gap: 10px;
+    position: relative;
+  }
+.LB{
+    
+    position: relative;
+    grid-column-start: 1;
+    grid-column-end: 10;
+    grid-row-start: 1;
+    grid-row-end: 38;
+    background-color: aqua;
+}
+.PD{
+    position: relative;
+    grid-column-start: 1;
+    grid-column-end: 10;
+    grid-row-start: 10;
+    grid-row-end: 38;
+    font-size: 11px;
+}
+.Photo{
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: 30%;
+    width: 22%;
+    height: 15%;
+    border-radius: 50%;
+    border: 5px solid black;
+}
+.name{
+    grid-column-start: 16;
+    grid-column-end: 23;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    font-size: 25px;
+}
+.dev{
+    grid-column-start: 16;
+    grid-column-end: 23;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    font-size: 15px;
+}
+.mail{
+    grid-column-start: 16;
+    grid-column-end: 25;
+    grid-row-start: 4;
+    grid-row-end: 4;
+    font-size: 15px;
+    font-weight: 100;
+
+}
+.work{
+    grid-column-start: 10;
+    grid-column-end: 23;
+    grid-row-start: 6;
+    grid-row-end: 6;
+    font-weight: normal;
+    font-size: 10px;
+    }
+.education{
+    grid-column-start: 10;
+    grid-column-end: 23;
+    grid-row-start: 18;
+    grid-row-end: 18;
+    font-weight: normal;
+    font-size: 10px;
+    }
+ .courses{
+    grid-column-start: 10;
+    grid-column-end: 23;
+    grid-row-start: 28;
+    grid-row-end: 28;
+    font-weight: normal;
+    font-size: 10px;
+    }
+
+
